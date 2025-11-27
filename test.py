@@ -1,45 +1,38 @@
-import requests
 import pandas as pd
 import openpyxl
-from datetime import datetime
-
-# API endpoint
-url = "https://gapi.cenhomes.vn/g-analyst-graphql/v1"
-
-# Note: This API likely requires parameters such as property ID or other filters.
-# You may need to inspect the website's network requests to determine required parameters.
-# For example, it might need something like: params = {'propertyId': 'some_id'}
-# Uncomment and modify the params dict below if needed.
-
-# params = {
-#     'propertyId': 'example_id',  # Replace with actual property ID
-#     # Add other required parameters here
-# }
+import json
+import os
 
 try:
-    # Make GET request to the API
-    response = requests.get(url)  # Add params=params if needed
-    response.raise_for_status()  # Raise an error for bad status codes
+    all_data = []
+    for root, dirs, files in os.walk('Data/'):
+        for file in files:
+            if file.endswith('.json'):
+                filepath = os.path.join(root, file)
+                province = os.path.basename(root)
+                district = file[:-5]  # remove .json
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                        if isinstance(data, dict) and "data" in data and "address" in data["data"] and "analysts" in data["data"]["address"]:
+                            analysts = data["data"]["address"]["analysts"]
+                            for item in analysts:
+                                item['province'] = province
+                                item['district'] = district
+                            all_data.extend(analysts)
+                        else:
+                            print(f"Unexpected structure in {filepath}")
+                except Exception as e:
+                    print(f"Error reading {filepath}: {e}")
 
-    # Parse JSON response
-    data = response.json()
+    if all_data:
+        df = pd.DataFrame(all_data)
+        columns_to_keep = ['province', 'district', 'month', 'year', 'soTin', 'tyLeTangTruongSoTin', 'giaTrenDtTrungBinh', 'tyLeTangTruongGia']
+        df = df[columns_to_keep]
+        df.to_excel('data.xlsx', index=False)
+        print("Data exported successfully to data.xlsx")
+    else:
+        print("No data found")
 
-    # Assuming the response is a list of dictionaries or can be converted to DataFrame
-    # If the structure is different, adjust accordingly
-    df = pd.DataFrame(data)
-
-    # Generate filename with timestamp
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"pricing_history_{timestamp}.xlsx"
-
-    # Export to Excel
-    df.to_excel(filename, index=False)
-
-    print(f"Data exported successfully to {filename}")
-
-except requests.exceptions.RequestException as e:
-    print(f"Error fetching data: {e}")
-except ValueError as e:
-    print(f"Error parsing JSON: {e}")
 except Exception as e:
     print(f"An error occurred: {e}")

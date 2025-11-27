@@ -1,0 +1,744 @@
+{
+    "data": {
+        "address": {
+            "id": 65,
+            "idDayDu": "5_65",
+            "idCha": 5,
+            "loaiDiaChi": "quan",
+            "loaiDiaChiCha": "tinh",
+            "tienTo": "Huyện",
+            "ten": "Hoàng Sa",
+            "tenKhongDau": "huyen hoang sa, da nang",
+            "tenDayDu": "Huyện Hoàng Sa, Đà Nẵng",
+            "typeBds": {
+                "id": 5,
+                "name": "Nhà mặt phố",
+                "__typename": "TypeBds"
+            },
+            "useFor": "SALE",
+            "analysts": [
+                {
+                    "month": 3,
+                    "year": 2020,
+                    "soTin": 1,
+                    "tyLeTangTruongSoTin": 0,
+                    "giaTrenDtTrungBinh": 35.35714340209961,
+                    "tyLeTangTruongGia": 0,
+                    "checkBatThuong": false,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2020,
+                    "soTin": 6,
+                    "tyLeTangTruongSoTin": 500,
+                    "giaTrenDtTrungBinh": 248.2620989481608,
+                    "tyLeTangTruongGia": 602.1554205462716,
+                    "checkBatThuong": true,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2020,
+                    "soTin": 37,
+                    "tyLeTangTruongSoTin": 516.6666666666667,
+                    "giaTrenDtTrungBinh": 250.01882027290964,
+                    "tyLeTangTruongGia": 0.7076075374339184,
+                    "checkBatThuong": false,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 12,
+                    "year": 2020,
+                    "soTin": 34,
+                    "tyLeTangTruongSoTin": -8.108108108108109,
+                    "giaTrenDtTrungBinh": 184.63769463931814,
+                    "tyLeTangTruongGia": -26.150481616633627,
+                    "checkBatThuong": false,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 3,
+                    "year": 2021,
+                    "soTin": 12,
+                    "tyLeTangTruongSoTin": -64.70588235294117,
+                    "giaTrenDtTrungBinh": 144.1550121307373,
+                    "tyLeTangTruongGia": -21.925470087601575,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2021,
+                    "soTin": 14,
+                    "tyLeTangTruongSoTin": 16.666666666666664,
+                    "giaTrenDtTrungBinh": 176.49254989624023,
+                    "tyLeTangTruongGia": 22.432475491157614,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2021,
+                    "soTin": 6,
+                    "tyLeTangTruongSoTin": -57.14285714285714,
+                    "giaTrenDtTrungBinh": 137.97214889526367,
+                    "tyLeTangTruongGia": -21.825511061867857,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 12,
+                    "year": 2021,
+                    "soTin": 7,
+                    "tyLeTangTruongSoTin": 16.666666666666664,
+                    "giaTrenDtTrungBinh": 173.2222159249442,
+                    "tyLeTangTruongGia": 25.54868305808536,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 3,
+                    "year": 2022,
+                    "soTin": 2,
+                    "tyLeTangTruongSoTin": -71.42857142857143,
+                    "giaTrenDtTrungBinh": 105,
+                    "tyLeTangTruongGia": -39.38421845065436,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2022,
+                    "soTin": 1,
+                    "tyLeTangTruongSoTin": -50,
+                    "giaTrenDtTrungBinh": 552.4862060546875,
+                    "tyLeTangTruongGia": 426.1773390997024,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2022,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -49,
+                    "giaTrenDtTrungBinh": 541.4364819335938,
+                    "tyLeTangTruongGia": 417.65379231770834,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 12,
+                    "year": 2022,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -44.1,
+                    "giaTrenDtTrungBinh": 487.2928337402344,
+                    "tyLeTangTruongGia": 375.8884130859375,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 3,
+                    "year": 2023,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -49.392,
+                    "giaTrenDtTrungBinh": 545.7679737890626,
+                    "tyLeTangTruongGia": 420.99502265625,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2023,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -51.8616,
+                    "giaTrenDtTrungBinh": 573.0563724785158,
+                    "tyLeTangTruongGia": 442.0447737890625,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2023,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -52.898832000000006,
+                    "giaTrenDtTrungBinh": 584.5174999280861,
+                    "tyLeTangTruongGia": 450.8856692648438,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 12,
+                    "year": 2023,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -44.964007200000005,
+                    "giaTrenDtTrungBinh": 496.83987493887315,
+                    "tyLeTangTruongGia": 383.2528188751172,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 3,
+                    "year": 2024,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -53.956808640000006,
+                    "giaTrenDtTrungBinh": 596.2078499266478,
+                    "tyLeTangTruongGia": 459.90338265014066,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2024,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -62.050329936000004,
+                    "giaTrenDtTrungBinh": 685.6390274156449,
+                    "tyLeTangTruongGia": 528.8888900476617,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2024,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -69.49636952832002,
+                    "giaTrenDtTrungBinh": 767.9157107055224,
+                    "tyLeTangTruongGia": 592.3555568533811,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 12,
+                    "year": 2024,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -72.97118800473602,
+                    "giaTrenDtTrungBinh": 806.3114962407985,
+                    "tyLeTangTruongGia": 621.9733346960502,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 3,
+                    "year": 2025,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -69.32262860449922,
+                    "giaTrenDtTrungBinh": 765.9959214287586,
+                    "tyLeTangTruongGia": 590.8746679612476,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 6,
+                    "year": 2025,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -62.3903657440493,
+                    "giaTrenDtTrungBinh": 689.3963292858828,
+                    "tyLeTangTruongGia": 531.7872011651228,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                },
+                {
+                    "month": 9,
+                    "year": 2025,
+                    "soTin": 0,
+                    "tyLeTangTruongSoTin": -74.86843889285916,
+                    "giaTrenDtTrungBinh": 827.2755951430593,
+                    "tyLeTangTruongGia": 638.1446413981474,
+                    "checkBatThuong": null,
+                    "__typename": "Analyst"
+                }
+            ],
+            "__typename": "Address",
+            "parent": {
+                "tienTo": "Thành phố",
+                "id": 5,
+                "ten": "Đà Nẵng",
+                "tenKhongDau": "thanh pho da nang",
+                "tenDayDu": "Thành phố Đà Nẵng",
+                "typeBds": {
+                    "id": 5,
+                    "name": "Nhà mặt phố",
+                    "__typename": "TypeBds"
+                },
+                "useFor": "SALE",
+                "analysts": [
+                    {
+                        "month": 12,
+                        "year": 2017,
+                        "soTin": 6705,
+                        "tyLeTangTruongSoTin": 14.654582763337892,
+                        "giaTrenDtTrungBinh": 65.64606652021585,
+                        "tyLeTangTruongGia": 6.022325749968868,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2018,
+                        "soTin": 7432,
+                        "tyLeTangTruongSoTin": 10.842654735272186,
+                        "giaTrenDtTrungBinh": 69.46880355519038,
+                        "tyLeTangTruongGia": 5.8232537570203124,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2018,
+                        "soTin": 6647,
+                        "tyLeTangTruongSoTin": -10.56243272335845,
+                        "giaTrenDtTrungBinh": 78.27545784332887,
+                        "tyLeTangTruongGia": 12.67713540098892,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2018,
+                        "soTin": 6574,
+                        "tyLeTangTruongSoTin": -1.0982398074319242,
+                        "giaTrenDtTrungBinh": 78.72937481969839,
+                        "tyLeTangTruongGia": 0.5798969292240463,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2018,
+                        "soTin": 4092,
+                        "tyLeTangTruongSoTin": -37.75479160328567,
+                        "giaTrenDtTrungBinh": 78.70939211971249,
+                        "tyLeTangTruongGia": -0.02538150472001842,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2019,
+                        "soTin": 4476,
+                        "tyLeTangTruongSoTin": 9.3841642228739,
+                        "giaTrenDtTrungBinh": 84.05907990146258,
+                        "tyLeTangTruongGia": 6.7967591130846525,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2019,
+                        "soTin": 5210,
+                        "tyLeTangTruongSoTin": 16.39857015192136,
+                        "giaTrenDtTrungBinh": 91.46348547139232,
+                        "tyLeTangTruongGia": 8.808573182825077,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2019,
+                        "soTin": 3969,
+                        "tyLeTangTruongSoTin": -23.81957773512476,
+                        "giaTrenDtTrungBinh": 99.81223125366456,
+                        "tyLeTangTruongGia": 9.127954985799818,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2019,
+                        "soTin": 7822,
+                        "tyLeTangTruongSoTin": 97.07734945830184,
+                        "giaTrenDtTrungBinh": 99.34202124425683,
+                        "tyLeTangTruongGia": -0.47109457779050806,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2020,
+                        "soTin": 3795,
+                        "tyLeTangTruongSoTin": -51.482996676041935,
+                        "giaTrenDtTrungBinh": 96.56764433676075,
+                        "tyLeTangTruongGia": -2.7927526264787663,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2020,
+                        "soTin": 3232,
+                        "tyLeTangTruongSoTin": -14.835309617918313,
+                        "giaTrenDtTrungBinh": 97.27060026107448,
+                        "tyLeTangTruongGia": 0.7279414643918474,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2020,
+                        "soTin": 6510,
+                        "tyLeTangTruongSoTin": 101.42326732673268,
+                        "giaTrenDtTrungBinh": 105.44746349769804,
+                        "tyLeTangTruongGia": 8.40630490063477,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2020,
+                        "soTin": 9143,
+                        "tyLeTangTruongSoTin": 40.445468509984636,
+                        "giaTrenDtTrungBinh": 98.9128866772787,
+                        "tyLeTangTruongGia": -6.196997636232364,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2021,
+                        "soTin": 10106,
+                        "tyLeTangTruongSoTin": 10.532647927376134,
+                        "giaTrenDtTrungBinh": 98.65641315210321,
+                        "tyLeTangTruongGia": -0.25929232660278684,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2021,
+                        "soTin": 9939,
+                        "tyLeTangTruongSoTin": -1.6524836730655055,
+                        "giaTrenDtTrungBinh": 94.49429971858258,
+                        "tyLeTangTruongGia": -4.218796630183286,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2021,
+                        "soTin": 6218,
+                        "tyLeTangTruongSoTin": -37.43837408189959,
+                        "giaTrenDtTrungBinh": 90.93678508045666,
+                        "tyLeTangTruongGia": -3.7647928485852646,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2021,
+                        "soTin": 8036,
+                        "tyLeTangTruongSoTin": 29.237697008684467,
+                        "giaTrenDtTrungBinh": 86.18237395023101,
+                        "tyLeTangTruongGia": -5.228259527779837,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2022,
+                        "soTin": 2292,
+                        "tyLeTangTruongSoTin": -71.4783474365356,
+                        "giaTrenDtTrungBinh": 90.65770939174539,
+                        "tyLeTangTruongGia": 5.192866286206982,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2022,
+                        "soTin": 14041,
+                        "tyLeTangTruongSoTin": 512.60907504363,
+                        "giaTrenDtTrungBinh": 89.00629551815992,
+                        "tyLeTangTruongGia": -1.8215923220048114,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2022,
+                        "soTin": 16400,
+                        "tyLeTangTruongSoTin": 16.800797663984046,
+                        "giaTrenDtTrungBinh": 91.18098948234466,
+                        "tyLeTangTruongGia": 2.443303534344982,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2022,
+                        "soTin": 3326,
+                        "tyLeTangTruongSoTin": 0,
+                        "giaTrenDtTrungBinh": 96.21311593471488,
+                        "tyLeTangTruongGia": 0,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2023,
+                        "soTin": 289,
+                        "tyLeTangTruongSoTin": -91.3108839446783,
+                        "giaTrenDtTrungBinh": 85.50887538817514,
+                        "tyLeTangTruongGia": -11.125552314305118,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2023,
+                        "soTin": 395,
+                        "tyLeTangTruongSoTin": 36.67820069204152,
+                        "giaTrenDtTrungBinh": 93.15167806601222,
+                        "tyLeTangTruongGia": 8.938022682606805,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2023,
+                        "soTin": 639,
+                        "tyLeTangTruongSoTin": 61.77215189873417,
+                        "giaTrenDtTrungBinh": 70.84778594373724,
+                        "tyLeTangTruongGia": -23.943628912910476,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2023,
+                        "soTin": 626,
+                        "tyLeTangTruongSoTin": 60.53670886075949,
+                        "giaTrenDtTrungBinh": 69.43083022486249,
+                        "tyLeTangTruongGia": -23.464756334652268,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2024,
+                        "soTin": 563,
+                        "tyLeTangTruongSoTin": 54.48303797468354,
+                        "giaTrenDtTrungBinh": 62.48774720237624,
+                        "tyLeTangTruongGia": -21.118280701187043,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2024,
+                        "soTin": 630,
+                        "tyLeTangTruongSoTin": 61.02100253164557,
+                        "giaTrenDtTrungBinh": 69.9862768666614,
+                        "tyLeTangTruongGia": -23.65247438532949,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2024,
+                        "soTin": 661,
+                        "tyLeTangTruongSoTin": 64.07205265822785,
+                        "giaTrenDtTrungBinh": 73.48559070999447,
+                        "tyLeTangTruongGia": -24.835098104595968,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 12,
+                        "year": 2024,
+                        "soTin": 674,
+                        "tyLeTangTruongSoTin": 65.3534937113924,
+                        "giaTrenDtTrungBinh": 74.95530252419437,
+                        "tyLeTangTruongGia": -25.331800066687887,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 3,
+                        "year": 2025,
+                        "soTin": 572,
+                        "tyLeTangTruongSoTin": 55.55046965468354,
+                        "giaTrenDtTrungBinh": 63.71200714556521,
+                        "tyLeTangTruongGia": -21.532030056684704,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 6,
+                        "year": 2025,
+                        "soTin": 686,
+                        "tyLeTangTruongSoTin": 66.66056358562024,
+                        "giaTrenDtTrungBinh": 76.45440857467825,
+                        "tyLeTangTruongGia": -25.838436068021643,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    },
+                    {
+                        "month": 9,
+                        "year": 2025,
+                        "soTin": 788,
+                        "tyLeTangTruongSoTin": 76.65964812346327,
+                        "giaTrenDtTrungBinh": 87.92256986087999,
+                        "tyLeTangTruongGia": -29.714201478224886,
+                        "checkBatThuong": null,
+                        "__typename": "Analyst"
+                    }
+                ],
+                "__typename": "Address",
+                "parent": null
+            },
+            "childs": [],
+            "nguonCungPhanKhuc": [
+                {
+                    "soTin": 2,
+                    "typeBds": {
+                        "id": 6,
+                        "name": "Biệt thự liền kề",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 31,
+                    "typeBds": {
+                        "id": 7,
+                        "name": "Nhà riêng để ở",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 9,
+                    "typeBds": {
+                        "id": 4,
+                        "name": "Đất",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 800,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 34,
+                    "typeBds": {
+                        "id": 5,
+                        "name": "Nhà mặt phố",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 1,
+                    "typeBds": {
+                        "id": 8,
+                        "name": "Căn hộ, chung cư",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 2,
+                    "typeBds": {
+                        "id": 6,
+                        "name": "Biệt thự liền kề",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 31,
+                    "typeBds": {
+                        "id": 7,
+                        "name": "Nhà riêng để ở",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 9,
+                    "typeBds": {
+                        "id": 4,
+                        "name": "Đất",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 800,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 34,
+                    "typeBds": {
+                        "id": 5,
+                        "name": "Nhà mặt phố",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 34,
+                    "typeBds": {
+                        "id": 5,
+                        "name": "Nhà mặt phố",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 9,
+                    "typeBds": {
+                        "id": 4,
+                        "name": "Đất",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 800,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 2,
+                    "typeBds": {
+                        "id": 6,
+                        "name": "Biệt thự liền kề",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 31,
+                    "typeBds": {
+                        "id": 7,
+                        "name": "Nhà riêng để ở",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 1,
+                    "typeBds": {
+                        "id": 8,
+                        "name": "Căn hộ, chung cư",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                },
+                {
+                    "soTin": 1,
+                    "typeBds": {
+                        "id": 8,
+                        "name": "Căn hộ, chung cư",
+                        "__typename": "TypeBds"
+                    },
+                    "tyLeTangTruongSoTinCungKyNamTruoc": 0,
+                    "__typename": "Analyst"
+                }
+            ]
+        }
+    }
+}
